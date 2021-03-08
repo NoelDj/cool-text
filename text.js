@@ -29,8 +29,6 @@
                     h1.appendChild(span)
                 }
 
-                span.classList.add('move')
-
                 if (index == arr.length) {
                     clearInterval(interval);
                 }

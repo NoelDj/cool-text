@@ -11,16 +11,14 @@
         }
 
         body {
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            min-height: 100%;
+
         }
 
 section {
-    background: red;
-    width: 700px;
-    height: 100%;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 20%;
 }
 
         h1 {
@@ -34,13 +32,10 @@ section {
         span {
             display: inline-block;
             transform: skew(-10deg);
-
-        }
-
-        .move {
-            animation: move ease-in-out;
+             animation: move ease-in-out;
 
             animation-duration: 3.5s;
+
         }
 
         @keyframes move {

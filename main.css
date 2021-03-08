@@ -1,19 +1,19 @@
-        @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        html {
-            height: 100%
-        }
+html {
+    height: 100%
+}
 
-        body {
-            min-height: 100%;
+body {
+    min-height: 100%;
 
-        }
+}
 
 section {
     position: absolute;
@@ -21,41 +21,42 @@ section {
     margin-left: 20%;
 }
 
-        h1 {
-            font-family: 'Fjalla One', sans-serif;
-            font-size: 5em;
-            color: blueviolet;
-            background: #FFFFFF;
-            text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-        }
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 5em;
+    color: blueviolet;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
 
-        span {
-            display: inline-block;
-            transform: skew(-10deg);
-             animation: move ease-in-out;
+span {
+    display: inline-block;
+    transform: skew(-10deg);
+    animation: move ease-in-out;
 
-            animation-duration: 3.5s;
+    animation-duration: 3.5s;
 
-        }
+}
 
-        @keyframes move {
-            0% {
-                transform: skewX(0deg) rotate(0deg);
-                transform: translateY(100px);
-                opacity: 0;
-            }
+@keyframes move {
+    0% {
+        transform: skewX(0deg) rotate(0deg);
+        transform: translateY(100px);
+        opacity: 0;
+    }
 
-            60% {
-                transform: translateY(-40px);
-                opacity: 1;
-            }
+    60% {
+        opacity: 0.2;
+        transform: translateY(-40px);
+    }
 
-            80% {
-                transform: translateY(4px);
-            }
+    80% {
 
-            100% {
-                transform: translateX(0%);
-                opacity: 1;
-            }
-        }
+        transform: translateY(4px);
+    }
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}

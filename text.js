@@ -32,5 +32,5 @@
                 if (index == arr.length) {
                     clearInterval(interval);
                 }
-            }, 100)
+            }, 150)
         })

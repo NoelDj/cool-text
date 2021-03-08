@@ -31,7 +31,7 @@ span {
     transform: skew(-10deg);
     animation: move ease-in-out;
 
-    animation-duration: 3.5s;
+    animation-duration: 1.5s;
 
 }
 

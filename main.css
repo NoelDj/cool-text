@@ -12,17 +12,18 @@
 
         body {
             min-height: 100vh;
-            display: -webkit-flex;
-            display: -moz-flex;
-            display: -ms-flex;
-            display: -o-flex;
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
+section {
+    background: red;
+    width: 700px;
+    height: 100%;
+}
+
         h1 {
-            text-align: center;
             font-family: 'Fjalla One', sans-serif;
             font-size: 5em;
             color: blueviolet;

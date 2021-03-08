@@ -19,6 +19,7 @@
                     if(n==3){
                         n=0
                         const br = document.createElement('br')
+                        br.classList.add('move')
                     h1.appendChild(br)
                     } else {
                         h1.appendChild(span)
@@ -33,5 +34,5 @@
                 if (index == arr.length) {
                     clearInterval(interval);
                 }
-            }, 10)
+            }, 100)
         })
